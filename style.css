@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: rgb(26, 25, 25);
+  text-align: center;
+  gap: 30px;
+}
+
+.monkey-video {
+  width: 300px;
+}
+
+.monkey-video video {
+  width: 100%;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+.unmute {
+    text-decoration: underline;
+    color: rgb(255, 97, 97);
+    cursor: pointer;
+}
